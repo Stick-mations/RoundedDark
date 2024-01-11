@@ -1,33 +1,33 @@
 /**
- * @name Rounded Dark
- * @author Adaelyn
- * @version 1.2.1
- * @description I just removed the codes that I didn't want.
- * @source https://github.com/AdaelynXIV/RoundedDark
+ * @name Modified Rounded Dark
+ * @author Adaelyn (Akross)
+ * @version 1.4
+ * @description A modification of the theme created by Adaelyn
+ * @source https://github.com/AKR0SS/ModifiedRoundedDark
 */
 
-@import url('https://adaelynxiv.github.io/RoundedDark/src/roundeddark.css');
+@import url(https://akr0ss.github.io/ModifiedRoundedDark/src/roundeddark.css);
 
-/* #  Plugin Fixes/Edits  # */
-/* Uncomment a plugin Import URL if you use a plugin that's listed here */
-
-/* Channel Tabs: */
-/*@import url('https://adaelynxiv.github.io/RoundedDark/src/plugins/channeltabs.css');*/
-
-/* Customizable Variables */
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700&display=swap');
 :root {
-    --font-primary: 'Karla', sans-serif;
-    --custom-background: #576aed;
+  --font-primary: "Karla", sans-serif;
+  --custom-background: #141416; /* border color */
 
-    --blurple: #576aed;
-    --grey:#252629;
-    --lightgrey:#323438;
-    --darkgrey:#17181a;
-    --red:#eb4148;
-    --blurple-gradient: linear-gradient(0deg, rgba(37,38,41,1) 0%, rgba(87,106,237,1) 70%);
-    --darkgrey-gradient: linear-gradient(0deg, rgba(37,38,41,1) 0%, rgba(23,24,26,1) 100%);
+  --blurple: #495fc6;
+  --grey: #2b2d31; /*TODO: shift all colors up one, base color should be grey not dark grey*/
+  --lightgrey: #34363b; /* chat / user color #2e2e33 */
+  --darkgrey: #1f2023; /* all element background color */
+  --red: #eb4148;
+  --blurple-gradient: linear-gradient(
+    0deg,
+    rgba(37, 38, 41, 1) 0%,
+    rgba(87, 106, 237, 1) 70%
+  );
+  --darkgrey-gradient: linear-gradient(
+    0deg,
+    rgba(37, 38, 41, 1) 0%,
+    rgba(23, 24, 26, 1) 100%
+  );
 
-    --radius: 16px;
-    --spacing: 11px;
+  --radius: 16px;
+  --spacing: 10px;
 }
